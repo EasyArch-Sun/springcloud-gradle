@@ -1,0 +1,14 @@
+                    zk      eureka              描述
+    cap             cp       ap
+
+    Dubbo集成       支持                        dubbo开发不需要考虑注册中心
+
+    springcloud集成 支持       支持              eureka是springcloud推荐的注册中心
+
+    kv             支持                         zk支持数据存储，eureka不支持
+
+    watch          支持       支持               watch是客户端监听服务变化
+                                                zk----订阅监听
+                                                eureka----轮询
+
+    集群监控                   metrics           metrics，运维者可以收集并警告这些度量信息达到监控目的
