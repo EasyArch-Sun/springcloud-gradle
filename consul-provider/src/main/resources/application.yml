@@ -21,7 +21,7 @@ spring:
   profiles:
     active: dev
   application:
-    name: consul-server
+    name: consul-provider
   cloud:
     consul:
       host: localhost
